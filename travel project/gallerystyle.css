@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav{
+    display: flex;
+    
+    padding: 18px 80px;
+    align-items: center;
+    font-size: 15px;
+    background-color: #29465B;
+    font-family: sans-serif;
+    
+
+}
+nav img{
+    width: 110px;
+
+    
+}
+nav ul{
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 14px;   
+    
+}
+nav ul li a{
+    color: white;
+}
+
+
+.container{
+    width: 95vmin;
+    height: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+   left: 50%;
+    overflow: hidden;
+    border: 5px solid #29465B;
+    border-radius: 10px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+    
+}
+img{
+    width: 100%;
+
+    
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateX(0);
+        
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    35%{
+        transform: translateX(-200%);
+    }
+    45%{
+        transform: translateX(-200%);
+        
+    }
+    50%{
+        transform: translateX(-300%);
+        
+    }
+    60%{
+        transform: translateX(-300%);
+    }
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ .box .header2{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.box .header2 img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.footer-container{
+    background-color:#29465B;
+    padding-bottom: 5rem;
+    font-family: sans-serif;
+}
+.footer{
+    width:80%;
+    height: 40vh;
+    background-color: #29465B;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:  0 auto;
+}
+.footer-heading{
+    display:flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    
+}
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.7rem;
+}
+.footer-heading a:hover{
+    color: lightblue;transition: 0.3s ease-out;
+}
+.footer4{
+    text-align: center;
+    background-color: #29465B;
+    color: white;
+    font-family: sans-serif;
+}
