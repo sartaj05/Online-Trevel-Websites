@@ -1,0 +1,23 @@
+# VS Code
+.vscode/
+
+# Windows
+*.lnk
+
+# Videos
+*.mp4
+
+# Images (optional)
+# *.jpg
+# *.png
+# *.jfif
+
+.vscode/
+*.mp4
+*.lnk
+
+# Optional
+Thumbs.db
+.DS_Store
+# Logs
+*.log
